@@ -1,31 +1,31 @@
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local(''),
-    url('../fonts/nunito-v25-latin_cyrillic-regular.woff2') format('woff2'),
-    url('../fonts/nunito-v25-latin_cyrillic-regular.woff') format('woff');
+  src: local(""),
+    url("../fonts/nunito-v25-latin_cyrillic-regular.woff2") format("woff2"),
+    url("../fonts/nunito-v25-latin_cyrillic-regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local(''),
-    url('../fonts/nunito-v25-latin_cyrillic-600.woff2') format('woff2'),
-    url('../fonts/nunito-v25-latin_cyrillic-600.woff') format('woff');
+  src: local(""),
+    url("../fonts/nunito-v25-latin_cyrillic-600.woff2") format("woff2"),
+    url("../fonts/nunito-v25-latin_cyrillic-600.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: local(''),
-    url('../fonts/nunito-v25-latin_cyrillic-800.woff2') format('woff2'),
-    url('../fonts/nunito-v25-latin_cyrillic-800.woff') format('woff');
+  src: local(""),
+    url("../fonts/nunito-v25-latin_cyrillic-800.woff2") format("woff2"),
+    url("../fonts/nunito-v25-latin_cyrillic-800.woff") format("woff");
 }
 
 html {
@@ -44,7 +44,7 @@ body {
   font-family: Nunito, sans-serif;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   color: #000000;
   position: relative;
   overflow-x: hidden;
@@ -79,6 +79,7 @@ ul {
 h1,
 h2,
 h3,
+h4,
 p,
 figure {
   margin: 0;
@@ -94,8 +95,6 @@ fieldset {
   position: fixed;
   transform: scale(0);
 }
-
-
 
 .currency {
   font-weight: 400;
